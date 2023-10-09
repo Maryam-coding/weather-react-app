@@ -1,0 +1,113 @@
+.container {
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border: 1px solid red;
+    border-radius: 30px;
+    background: pink;
+  }
+  
+  #city-input {
+    width: 40%;
+    text-indent: 20px;
+    border: 1px;
+    border-radius: 20px;
+    height: 50px;
+  }
+  #enter-button {
+    width: 20%;
+    color:black;
+    border: 1.5px solid;
+    border-radius: 20px;
+    height: 50px;
+    background-color: white;
+    border-color: red;
+  }
+  #current-button {
+    width: 20%;
+    color: black;
+    border: 1.5px solid;
+    border-radius: 20px;
+    height: 50px;
+    background-color: white;
+    border-color: red;
+  }
+  #enter-button:hover {
+    background-color: red;
+    color: white;
+  }
+  #current-button:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  .myForm {
+    font-family: "Antic Slab", monospace;
+  }
+  
+  h1 {
+    color: black;
+    padding: 0px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    line-height: 5px;
+    font-family: "Caprasimo", cursive;
+  }
+  h3 {
+    font-weight: bold;
+    color: #f51060;
+    font-family: "Antic Slab", monospace;
+  }
+  .description {
+    padding: 0px;
+    margin-top: 40px;
+    font-family: "Antic Slab", monospace;
+    justify-content: left;
+  }
+  .fa-solid {
+    color: #f51060;;
+  }
+  
+  .tempButton {
+    font-size: 10px;
+    border: 0.5px #f51060 solid;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    top: -10px;
+  }
+  
+  #current-temp {
+    font-size: 50px;
+    color: #f51060;;
+    font-family: "Antic Slab", monospace;
+    text-shadow: 1px 1px 2px white;
+  }
+  #celsius {
+    position: relative;
+    font-size: 20px;
+    top: -20px;
+    text-decoration: none;
+    font-family: "Antic Slab", monospace;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 10px;
+    line-height: 1px;
+  }
+  #icon {
+    display: inline-block;
+    height: 80px;
+    vertical-align: top;
+    width: 80px;
+    filter: drop-shadow(0 0 0.75rem #f51060);
+  }
+  .active {
+    color: black;
+    cursor: default;
+  }
